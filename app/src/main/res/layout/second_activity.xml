@@ -16,24 +16,25 @@
             android:background="#a7c65b"
             android:gravity="center"
             android:padding="10dp"
+            android:text="@string/nama"
             android:textColor="#000000"
-            android:textSize="20sp"
-            android:text="Nama"
-            />
+            android:textSize="20sp" />
+
         <TextView
             android:id="@+id/receiver1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
             android:layout_margin="10dp"
-            android:gravity="center"
-            android:textColor="#000000"
-            android:background="#dce173"
-            android:padding="10dp"
             android:layout_span="2"
-            />
+            android:background="#dce173"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="20sp" />
     </TableRow>
+
     <TableRow>
+
         <TextView
             android:layout_width="112dp"
             android:layout_height="wrap_content"
@@ -41,10 +42,9 @@
             android:background="#a7c65b"
             android:gravity="center"
             android:padding="10dp"
+            android:text="@string/tempat_lahir"
             android:textColor="#000000"
-            android:textSize="20sp"
-            android:text="Tempat Lahir"
-            />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/receiver2"
@@ -58,7 +58,9 @@
             android:textColor="#000000"
             android:textSize="20sp" />
     </TableRow>
+
     <TableRow>
+
         <TextView
             android:layout_width="112dp"
             android:layout_height="wrap_content"
@@ -66,10 +68,9 @@
             android:background="#a7c65b"
             android:gravity="center"
             android:padding="10dp"
+            android:text="@string/tanggal_lahir"
             android:textColor="#000000"
-            android:textSize="20sp"
-            android:text="Tanggal "
-            />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/receiver3"
@@ -83,4 +84,14 @@
             android:textColor="#000000"
             android:textSize="20sp" />
     </TableRow>
+
+    <ImageView
+        android:id="@+id/receiver4"
+        android:layout_width="411dp"
+        android:layout_height="244dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/hello"
+        android:contentDescription="@string/helloImage" />
 </TableLayout>

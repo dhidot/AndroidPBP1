@@ -6,6 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="77dp"
+        android:layout_marginBottom="376dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/form_biodata"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <EditText
         android:id="@+id/nameId"
         android:layout_width="0dp"
@@ -22,7 +39,8 @@
         app:layout_constraintBottom_toTopOf="@+id/placeId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="Null" />
 
 
     <EditText
@@ -40,7 +58,8 @@
         app:layout_constraintBottom_toTopOf="@+id/birthId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nameId" />
+        app:layout_constraintTop_toBottomOf="@+id/nameId"
+        android:autofillHints="Null" />
 
     <EditText
         android:id="@+id/birthId"
@@ -56,7 +75,8 @@
         app:layout_constraintBottom_toTopOf="@+id/buttonId"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/placeId" />
+        app:layout_constraintTop_toBottomOf="@+id/placeId"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/buttonId"
@@ -68,5 +88,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/birthId" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/signin"
+        android:contentDescription="@string/sign" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

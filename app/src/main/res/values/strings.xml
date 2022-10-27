@@ -4,4 +4,10 @@
     <string name="tempatLahir">Tempat Lahir</string>
     <string name="tanggalLahir">Tanggal Lahir</string>
     <string name="submit">Submit</string>
+    <string name="nama">Nama</string>
+    <string name="tempat_lahir">Tempat Lahir</string>
+    <string name="tanggal_lahir">Tanggal</string>
+    <string name="helloImage">HelloImage</string>
+    <string name="sign">Sign</string>
+    <string name="form_biodata">FORM BIODATA</string>
 </resources>
